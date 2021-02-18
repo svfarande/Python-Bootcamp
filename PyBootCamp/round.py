@@ -1,0 +1,25 @@
+print(round(5.5))   # 6
+print(round(4.5))   # 4
+print(round(3.5))   # 4
+print(round(2.6))   # 3
+print(round(2.5))   # 2
+print(round(2.4))   # 2
+print(round(1.6))   # 2
+print(round(1.5))   # 2
+print(round(1.4))   # 1
+print(round(0.6))   # 1
+print(round(0.5))   # 0
+print(round(0.4))   # 0
+
+print(round(-5.5))  # -6
+print(round(-4.5))  # -4
+print(round(-3.5))  # -4
+print(round(-2.6))  # -3
+print(round(-2.5))  # -2
+print(round(-2.4))  # -2
+print(round(-1.6))  # -2
+print(round(-1.5))  # -2
+print(round(-1.4))  # -1
+print(round(-0.6))  # -1
+print(round(-0.5))  # 0
+print(round(-0.4))  # 0
