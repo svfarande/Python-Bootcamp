@@ -5,13 +5,15 @@ print(list(range(0, 12, 2)))  # [0, 2, 4, 6, 8, 10]
 for n in range(0, 12, 2):  # range(start,stop,step)
     print(n)  # prints even no. from 0 to 10
 
-print(list(enumerate("Hello")))  # indexing for each letter ; [(0, 'H'), (1, 'e'), (2, 'l'), (3, 'l'), (4, 'o')]
+print(list(enumerate("Hello")))  # indexing for each letter ; [(0, 'H'), (1, 'e'), (2, 'mylist'), (3,
+# 'mylist'), (4, 'o')]
 
 for i, l in enumerate("Hello"):
     print(str(i) + " -> " + l)
 
 print(list(
-    zip([1, 2, 3], ["a", "b", "c"], [100, 200, 300])))  # combines lists ; [(1, 'a', 100), (2, 'b', 200), (3, 'c', 300)]
+    zip([1, 2, 3], ["a", "b", "c"], [100, 200, 300])))  # combines lists ; [(1, 'a', 100), (2,
+# 'b', 200), (3, 'c', 300)]
 
 for x, y, z in zip([1, 2, 3], ["a", "b", "c"], [100, 200, 300]):
     print(str(x) + " <-> " + y + " <-> " + str(z))

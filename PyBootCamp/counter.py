@@ -16,30 +16,30 @@ print(Counter(l_sentence))  # Counter({'words': 2, 'Count': 1, 'in': 1, 'this': 
 
 c = Counter('fajkekqwjNFRNGKJNAenvjkefkjn')
 
-print(c)  # Counter({'j': 4, 'k': 4, 'e': 3, 'N': 3, 'f': 2, 'n': 2, 'a': 1, 'x': 1, 'w': 1,
+print(c)  # Counter({'book': 4, 'k': 4, 'e': 3, 'N': 3, 'f': 2, 'n': 2, 'a': 1, 'x': 1, 'w': 1,
 # 'F': 1, 'R': 1, 'G': 1, 'K': 1, 'J': 1, 'A': 1, 'v': 1})
 print(type(c))  # <class 'collections.Counter'>
 
 # n most common entries - print(c.most_common(n))
-print(c.most_common(3))  # [('j', 4), ('k', 4), ('e', 3)]
+print(c.most_common(3))  # [('book', 4), ('k', 4), ('e', 3)]
 
 # n least common entries - print(c.most_common()[:-n-1:-1])
-print(c.most_common())  # [('j', 4), ('k', 4), ('e', 3), ('N', 3), ('f', 2), ('n', 2), ('a', 1),
+print(c.most_common())  # [('book', 4), ('k', 4), ('e', 3), ('N', 3), ('f', 2), ('n', 2), ('a', 1),
 # ('x', 1), ('w', 1), ('F', 1), ('R', 1), ('G', 1), ('K', 1), ('J', 1), ('A', 1), ('v', 1)]
 print(c.most_common()[:-4:-1])  # 3 least common    # [('v', 1), ('A', 1), ('J', 1)]
 
 print(c.values())  # dict_values([2, 1, 4, 4, 3, 1, 1, 3, 1, 1, 1, 1, 1, 1, 2, 1])
 print(sum(c.values()))  # 28
 
-print(list(c))  # ['f', 'a', 'j', 'k', 'e', 'x', 'w', 'N', 'F', 'R', 'G', 'K', 'J', 'A', 'n', 'v']
-print(set(c))  # {'v', 'G', 'x', 'a', 'w', 'N', 'j', 'J', 'A', 'n', 'K', 'F', 'f', 'R', 'e', 'k'}
-print(dict(c))  # {'f': 2, 'a': 1, 'j': 4, 'k': 4, 'e': 3, 'x': 1, 'w': 1, 'N': 3, 'F': 1, 'R': 1,
+print(list(c))  # ['f', 'a', 'book', 'k', 'e', 'x', 'w', 'N', 'F', 'R', 'G', 'K', 'J', 'A', 'n', 'v']
+print(set(c))  # {'v', 'G', 'x', 'a', 'w', 'N', 'book', 'J', 'A', 'n', 'K', 'F', 'f', 'R', 'e', 'k'}
+print(dict(c))  # {'f': 2, 'a': 1, 'book': 4, 'k': 4, 'e': 3, 'x': 1, 'w': 1, 'N': 3, 'F': 1, 'R': 1,
 # 'G': 1, 'K': 1, 'J': 1, 'A': 1, 'n': 2, 'v': 1}
 
-print(c.items())    # dict_items([('f', 2), ('a', 1), ('j', 4), ('k', 4), ('e', 3), ('x', 1),
+print(c.items())    # dict_items([('f', 2), ('a', 1), ('book', 4), ('k', 4), ('e', 3), ('x', 1),
 # ('w', 1), ('N', 3), ('F', 1), ('R', 1), ('G', 1), ('K', 1), ('J', 1), ('A', 1), ('n', 2), ('v',
 # 1)])
-print(Counter(dict(c.items())))  # Counter({'j': 4, 'k': 4, 'e': 3, 'N': 3, 'f': 2, 'n': 2, 'a': 1,
+print(Counter(dict(c.items())))  # Counter({'book': 4, 'k': 4, 'e': 3, 'N': 3, 'f': 2, 'n': 2, 'a': 1,
 # 'x': 1, 'w': 1, 'F': 1, 'R': 1, 'G': 1, 'K': 1, 'J': 1, 'A': 1, 'v': 1})
 
 '''

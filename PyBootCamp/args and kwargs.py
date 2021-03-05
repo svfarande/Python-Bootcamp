@@ -17,7 +17,7 @@ def myfunc(**kwargs):
 myfunc(a="A", b="B", c="C")
 
 
-# note args and kwargs are varibales and can have any name as variable
+# note args and kwargs are variables and can have any name as variable
 
 
 def myfunc(m, *args, a, **kwargs):

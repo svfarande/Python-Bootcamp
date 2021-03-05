@@ -5,7 +5,8 @@ f = open('practice.txt', 'w+')
 f.write('This is a test text')
 f.close()
 
-udemy_path = '/'
+root_path = 'C:\\Users\\A711929\\OneDrive - Atos\\Documents\\Study MAterial\\Python\\PyCharm ' \
+            'Projects\\PyBootCamp'
 
 # os.listdir("Path\\of\\Directory")
 print(f"Contents in '{os.getcwd()}' are - {os.listdir()}")
@@ -13,7 +14,7 @@ print(f"Contents in '{os.getcwd()}' are - {os.listdir()}")
 # PyBootCamp\OS and Shutil' are -
 # ['Delete', 'move.html', 'os_and_shutil.py', 'practice.txt', 'Root', 'SubDir']
 
-print(os.listdir(udemy_path + "\\Milestone Project 2"))
+print(os.listdir(root_path + "\\Milestone Project 2"))
 # ['BLACKJACK.py', 'BLACKJACK_share.py', 'WAR of CARDS.py']
 
 '''
@@ -26,7 +27,7 @@ print(f"Before Move contents in CWD - {os.listdir(os.getcwd())}")
 # Before Move contents in CWD -
 # ['Delete', 'move.html', 'os_and_shutil.py', 'practice.txt', 'Root', 'SubDir']
 
-shutil.move('move.html', udemy_path + '\\OS and Shutil\\SubDir')
+shutil.move('move.html', root_path + '\\OS and Shutil\\SubDir')
 
 print(f"After Move contents in CWD - {os.listdir(os.getcwd())}")
 # After Move contents in CWD - ['Delete', 'os_and_shutil.py', 'practice.txt', 'Root', 'SubDir']
@@ -37,7 +38,7 @@ print(os.listdir(os.getcwd() + '\\SubDir'))
 
 print('move.html is moved back to its original location - ')
 
-print(shutil.move(udemy_path + '\\OS and Shutil\\SubDir\\move.html', os.getcwd()))
+print(shutil.move(root_path + '\\OS and Shutil\\SubDir\\move.html', os.getcwd()))
 # C:\Users\A711929\OneDrive - Atos\Documents\Study MAterial\Python\
 # PyCharm Projects\PyBootCamp\OS and Shutil\move.html
 
@@ -82,8 +83,7 @@ print(f"After Delete contents in CWD - {os.listdir(os.getcwd())}")
 print(os.walk(os.getcwd()))  # <generator object walk at 0x01C0B6B8>
 
 for root, folders, files in os.walk(os.getcwd() + "\\Root"):
-
-    print(f"-------------------------------------------------------------------\n"
+    '''print(f"-------------------------------------------------------------------\n"
           f"Currently looking at Folder - {root}")
     print('\nThe Subfolders are - ')
 
@@ -95,12 +95,10 @@ for root, folders, files in os.walk(os.getcwd() + "\\Root"):
     for f in files:
         print(f"\tFile - {f}")
 
-    print('-------------------------------------------------------------------\n')
+    print('-------------------------------------------------------------------\n')'''
 
     # OR
 
-    '''
-    print(root)     # Path of root
+    print(root)  # Path of root
     print(folders)  # list
-    print(files)    # list
-    '''
+    print(files)  # list

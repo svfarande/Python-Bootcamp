@@ -26,11 +26,12 @@ print(round(-0.6))  # -1
 print(round(-0.5))  # 0
 print(round(-0.4))  # 0
 
-print(11 % 3)
-print(-11 % 3)
-print(11 % -3)
+print(11 % 3)   # 2
+print(-11 % 3)  # 1
+print(11 % -3)  # -1
 
 '''
+r = a % b = a - (b * floor(a/b))
 r = 8 - (-3 * floor(8/-3))
 r = 8 - (-3 * floor(-2.666666666667))
 r = 8 - (-3 * -3) # Rounded away from 0
@@ -43,3 +44,6 @@ print(-11 // 3)     # -4
 print(8.0 == 8)     # True
 
 print("dog" in "My dog is great")   # True
+
+print(type(range(1, 5)))    # <class 'range'>
+print(range(1, 5))  # range(1, 5)
