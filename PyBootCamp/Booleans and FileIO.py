@@ -30,7 +30,7 @@ myfile.close()  # close the file, if you don't do this and try to delete the fil
 
 # using below with statement you need not to close the file manually, it will close immediately after block ends
 
-with open('C:\\Users\\SF5048275\\OneDrive - Atos\\Documents\\Study MAterial\\Python\\PyCharm Projects\\PyBootCamp\\text.txt', mode='r') as myfile:  # by default mode is 'r'
+with open('C:\\Users\\svfarande\\onedrive\\Documents\\Study MAterial\\Python\\PyCharm Projects\\PyBootCamp\\text.txt', mode='r') as myfile:  # by default mode is 'r'
     contents = myfile.read()
     print(contents)
 
