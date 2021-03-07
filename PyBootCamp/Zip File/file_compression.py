@@ -19,7 +19,7 @@ uncompress_file.extractall('extracted')
 
 # But if you want to archive whole directory instead then check below
 
-dir_to_archive = "C:\\Users\\A711929\\OneDrive - Atos\\Documents\\Study MAterial" \
+dir_to_archive = "C:\\Users\\svfarande\\onedrive\\Documents\\Study MAterial" \
                  "\\Python\\PyCharm Projects\\PyBootCamp\\Zip File\\extracted"
 output_filename = 'Archived'
 shutil.make_archive(output_filename, 'tar', dir_to_archive)

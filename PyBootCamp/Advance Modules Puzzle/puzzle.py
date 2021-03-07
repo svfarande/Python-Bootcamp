@@ -41,7 +41,7 @@ Use the Python os module and regular expressions to iterate through each file, o
 for a telephone number. Good luck!
 
 Telephone number - 719-266-2837 found in 'EMTGPSXQEJX.txt' file which is in 
-'C:\\Users\\A711929\\OneDrive - Atos\\Documents\\Study MAterial\\Python\\PyCharm Projects
+'C:\\Users\\svfarande\\onedrive\\Documents\\Study MAterial\\Python\\PyCharm Projects
 \\PyBootCamp\\Advance Modules Puzzle\\puzzle unzipped\\extracted_content\\Four' directory
 At index starting from 1062 to 1074
 '''

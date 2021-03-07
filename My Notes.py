@@ -273,7 +273,7 @@ For Windows extra \ is required because if given single \ it might treat it as e
 
 # using below with statement you need not to close the file manually, it will close immediately after block ends
 
-with open('C:\\Users\\A711929\\OneDrive - Atos\\Documents\\Study MAterial\\Python\\PyCharm Projects\\PyBootCamp\\text.txt', mode='r') as myfile:  # by default mode is 'r'
+with open('C:\\Users\\svfarande\\onedrive\\Documents\\Study MAterial\\Python\\PyCharm Projects\\PyBootCamp\\text.txt', mode='r') as myfile:  # by default mode is 'r'
     contents = myfile.read()
     print(contents)
 
@@ -2046,12 +2046,12 @@ f = open('practice.txt', 'w+')
 f.write('This is a test text')
 f.close()
 
-udemy_path = 'C:\\Users\\A711929\\OneDrive - Atos\\Documents' \
+udemy_path = 'C:\\Users\\svfarande\\onedrive\\Documents' \
              '\\Study MAterial\\Python\\PyCharm Projects\\PyBootCamp'
 
 # os.listdir("Path\\of\\Directory")
 print(f"Contents in '{os.getcwd()}' are - {os.listdir()}")
-# Contents in 'C:\Users\A711929\OneDrive - Atos\Documents\Study MAterial\Python\PyCharm Projects\
+# Contents in 'C:\Users\svfarande\onedrive\Documents\Study MAterial\Python\PyCharm Projects\
 # Udemy\OS and Shutil' are -
 # ['Delete', 'move.html', 'os_and_shutil.py', 'practice.txt', 'Root', 'SubDir']
 
@@ -2080,7 +2080,7 @@ print(os.listdir(os.getcwd() + '\\SubDir'))
 print('move.html is moved back to its original location - ')
 
 print(shutil.move(udemy_path + '\\OS and Shutil\\SubDir\\move.html', os.getcwd()))
-# C:\Users\A711929\OneDrive - Atos\Documents\Study MAterial\Python\
+# C:\Users\svfarande\onedrive\Documents\Study MAterial\Python\
 # PyCharm Projects\Udemy\OS and Shutil\move.html
 
 '''
@@ -2281,7 +2281,7 @@ result2 = z + x
 
 Output -
 
-> c:\users\a711929\onedrive - atos\documents\study material\python\pycharm projects\udemy\py_debugger.py(9)<module>()
+> c:\users\svfarande\onedrive\documents\study material\python\pycharm projects\udemy\py_debugger.py(9)<module>()
 -> result2 = z + x
 (Pdb) z
 [3, 5, 7]
@@ -2293,58 +2293,58 @@ Output -
 5
 (Pdb) n
 TypeError: can only concatenate list (not "int") to list
-> c:\users\a711929\onedrive - atos\documents\study material\python\pycharm projects\udemy\py_debugger.py(9)<module>()
+> c:\users\svfarande\onedrive\documents\study material\python\pycharm projects\udemy\py_debugger.py(9)<module>()
 -> result2 = z + x
 (Pdb) n
 --Return--
-> c:\users\a711929\onedrive - atos\documents\study material\python\pycharm projects\udemy\py_debugger.py(9)<module>()->None
+> c:\users\svfarande\onedrive\documents\study material\python\pycharm projects\udemy\py_debugger.py(9)<module>()->None
 -> result2 = z + x
 (Pdb) n
 --Call--
 Traceback (most recent call last):
-  File "C:/Users/A711929/OneDrive - Atos/Documents/Study MAterial/Python/PyCharm Projects/Udemy/py_debugger.py", line 9, in <module>
-> c:\users\a711929\appdata\local\programs\python\python38-32\lib\codecs.py(309)__init__()
+  File "C:/Users/svfarande/onedrive/Documents/Study MAterial/Python/PyCharm Projects/Udemy/py_debugger.py", line 9, in <module>
+> c:\users\svfarande\appdata\local\programs\python\python38-32\lib\codecs.py(309)__init__()
 -> def __init__(self, errors='strict'):
 (Pdb) n
-> c:\users\a711929\appdata\local\programs\python\python38-32\lib\codecs.py(310)__init__()
+> c:\users\svfarande\appdata\local\programs\python\python38-32\lib\codecs.py(310)__init__()
 -> IncrementalDecoder.__init__(self, errors)
 (Pdb) n
-> c:\users\a711929\appdata\local\programs\python\python38-32\lib\codecs.py(312)__init__()
+> c:\users\svfarande\appdata\local\programs\python\python38-32\lib\codecs.py(312)__init__()
 -> self.buffer = b""
 (Pdb) n
 --Return--
-> c:\users\a711929\appdata\local\programs\python\python38-32\lib\codecs.py(312)__init__()->None
+> c:\users\svfarande\appdata\local\programs\python\python38-32\lib\codecs.py(312)__init__()->None
 -> self.buffer = b""
 (Pdb) n
 --Call--
-> c:\users\a711929\appdata\local\programs\python\python38-32\lib\codecs.py(331)getstate()
+> c:\users\svfarande\appdata\local\programs\python\python38-32\lib\codecs.py(331)getstate()
 -> def getstate(self):
 (Pdb) n
-> c:\users\a711929\appdata\local\programs\python\python38-32\lib\codecs.py(333)getstate()
+> c:\users\svfarande\appdata\local\programs\python\python38-32\lib\codecs.py(333)getstate()
 -> return (self.buffer, 0)
 (Pdb) n
 --Return--
-> c:\users\a711929\appdata\local\programs\python\python38-32\lib\codecs.py(333)getstate()->(b'', 0)
+> c:\users\svfarande\appdata\local\programs\python\python38-32\lib\codecs.py(333)getstate()->(b'', 0)
 -> return (self.buffer, 0)
 (Pdb) n
 --Call--
-> c:\users\a711929\appdata\local\programs\python\python38-32\lib\codecs.py(319)decode()
+> c:\users\svfarande\appdata\local\programs\python\python38-32\lib\codecs.py(319)decode()
 -> def decode(self, input, final=False):
 (Pdb) n
-> c:\users\a711929\appdata\local\programs\python\python38-32\lib\codecs.py(321)decode()
+> c:\users\svfarande\appdata\local\programs\python\python38-32\lib\codecs.py(321)decode()
 -> data = self.buffer + input
 (Pdb) n
-> c:\users\a711929\appdata\local\programs\python\python38-32\lib\codecs.py(322)decode()
+> c:\users\svfarande\appdata\local\programs\python\python38-32\lib\codecs.py(322)decode()
 -> (result, consumed) = self._buffer_decode(data, self.errors, final)
 (Pdb) n
-> c:\users\a711929\appdata\local\programs\python\python38-32\lib\codecs.py(324)decode()
+> c:\users\svfarande\appdata\local\programs\python\python38-32\lib\codecs.py(324)decode()
 -> self.buffer = data[consumed:]
 (Pdb) n
-> c:\users\a711929\appdata\local\programs\python\python38-32\lib\codecs.py(325)decode()
+> c:\users\svfarande\appdata\local\programs\python\python38-32\lib\codecs.py(325)decode()
 -> return result
 (Pdb) n
 --Return--
-> c:\users\a711929\appdata\local\programs\python\python38-32\lib\codecs.py(325)decode()->
+> c:\users\svfarande\appdata\local\programs\python\python38-32\lib\codecs.py(325)decode()->
 'import pdb  ...2 = z + x\r\n'
 -> return result
 (Pdb) n
@@ -2559,7 +2559,7 @@ uncompress_file.extractall('extracted')
 
 # But if you want to archive whole directory instead then check below
 
-dir_to_archive = "C:\\Users\\A711929\\OneDrive - Atos\\Documents\\Study MAterial" \
+dir_to_archive = "C:\\Users\\svfarande\\onedrive\\Documents\\Study MAterial" \
                  "\\Python\\PyCharm Projects\\PyBootCamp\\Zip File\\extracted"
 output_filename = 'Archived'
 shutil.make_archive(output_filename, 'tar', dir_to_archive)
@@ -2610,7 +2610,7 @@ Use the Python os module and regular expressions to iterate through each file, o
 for a telephone number. Good luck!
 
 Telephone number - 719-266-2837 found in 'EMTGPSXQEJX.txt' file which is in 
-'C:\\Users\\A711929\\OneDrive - Atos\\Documents\\Study MAterial\\Python\\PyCharm Projects
+'C:\\Users\\svfarande\\onedrive\\Documents\\Study MAterial\\Python\\PyCharm Projects
 \\PyBootCamp\\Module Puzzle\\puzzle unzipped\\extracted_content\\Four' directory
 At index starting from 1062 to 1074
 '''
@@ -2948,13 +2948,13 @@ purple.show()
 from PIL import Image
 
 # current image
-blue_png = Image.open('C:\\Users\\A711929\\OneDrive - Atos\\Documents\\Study '
+blue_png = Image.open('C:\\Users\\svfarande\\onedrive\\Documents\\Study '
                       'MAterial\\Python\\PyCharm Projects\\PyBootCamp\\Images\\blue_color.png')
 
 blue_jpg = blue_png.convert('RGB')
 
 # new image
-blue_jpg.save('C:\\Users\\A711929\\OneDrive - Atos\\Documents\\Study MAterial\\Python\\PyCharm '
+blue_jpg.save('C:\\Users\\svfarande\\onedrive\\Documents\\Study MAterial\\Python\\PyCharm '
               'Projects\\PyBootCamp\\Images\\blue_color.jpg')
 
 ########### 127. & 128. Python Image Exercise

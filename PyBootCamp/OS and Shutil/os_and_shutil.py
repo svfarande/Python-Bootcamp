@@ -5,12 +5,12 @@ f = open('practice.txt', 'w+')
 f.write('This is a test text')
 f.close()
 
-root_path = 'C:\\Users\\A711929\\OneDrive - Atos\\Documents\\Study MAterial\\Python\\PyCharm ' \
+root_path = 'C:\\Users\\svfarande\\onedrive\\Documents\\Study MAterial\\Python\\PyCharm ' \
             'Projects\\PyBootCamp'
 
 # os.listdir("Path\\of\\Directory")
 print(f"Contents in '{os.getcwd()}' are - {os.listdir()}")
-# Contents in 'C:\Users\A711929\OneDrive - Atos\Documents\Study MAterial\Python\PyCharm Projects\
+# Contents in 'C:\Users\svfarande\onedrive\Documents\Study MAterial\Python\PyCharm Projects\
 # PyBootCamp\OS and Shutil' are -
 # ['Delete', 'move.html', 'os_and_shutil.py', 'practice.txt', 'Root', 'SubDir']
 
@@ -39,7 +39,7 @@ print(os.listdir(os.getcwd() + '\\SubDir'))
 print('move.html is moved back to its original location - ')
 
 print(shutil.move(root_path + '\\OS and Shutil\\SubDir\\move.html', os.getcwd()))
-# C:\Users\A711929\OneDrive - Atos\Documents\Study MAterial\Python\
+# C:\Users\svfarande\onedrive\Documents\Study MAterial\Python\
 # PyCharm Projects\PyBootCamp\OS and Shutil\move.html
 
 '''
